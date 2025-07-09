@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Hope Counseling Center Self-Pay Client Fee</title>
+    <title>Hope Counseling Center Self-Phttps://github.com/hopecounselingmo/clientcalculator/tree/mainay Client Fee</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <style>
       body {
