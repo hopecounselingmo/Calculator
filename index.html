@@ -89,35 +89,17 @@
 
     .brand {
       display: flex;
-      flex-direction: column;
-      align-items: center;
       justify-content: center;
-      gap: 6px;
+      align-items: center;
       margin-bottom: 14px;
     }
 
-    /* Optional real logo */
     .brand-logo {
-      max-height: 72px;
+      max-height: 140px;
       width: auto;
+      max-width: 100%;
       display: block;
       margin: 0 auto 8px;
-    }
-
-    .brand-hope {
-      font-size: 3rem;
-      font-weight: 800;
-      letter-spacing: 0.06em;
-      line-height: 1;
-      color: var(--hope-charcoal);
-    }
-
-    .brand-sub {
-      font-size: 0.95rem;
-      font-weight: 700;
-      letter-spacing: 0.28em;
-      text-transform: uppercase;
-      color: var(--hope-charcoal-soft);
     }
 
     h1 {
@@ -290,15 +272,6 @@
         padding: 22px 18px;
       }
 
-      .brand-hope {
-        font-size: 2.3rem;
-      }
-
-      .brand-sub {
-        letter-spacing: 0.16em;
-        text-align: center;
-      }
-
       h1 {
         font-size: 1.7rem;
       }
@@ -306,6 +279,10 @@
       .header-lines::before,
       .header-lines::after {
         width: 50px;
+      }
+
+      .brand-logo {
+        max-height: 110px;
       }
     }
   </style>
@@ -317,11 +294,7 @@
         <div class="header-lines"></div>
 
         <div class="brand">
-          <!-- Optional: if you add your real logo file to the repo, uncomment the line below -->
-          <!-- <img src="hope-logo.png" alt="Hope Counseling Center logo" class="brand-logo"> -->
-
-          <div class="brand-hope">HOPE</div>
-          <div class="brand-sub">Counseling Center</div>
+          <img src="hope-logo.png.png" alt="Hope Counseling Center logo" class="brand-logo">
         </div>
 
         <h1>Self-Pay Fee Calculator</h1>
